@@ -47,7 +47,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 Birincilik Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>?????</h1>
+              <h1 className='text-6xl lg:text-8xl font-bold'>30.000TL</h1>
             </div>
           </div>
           <div className='block sm:hidden'>
@@ -57,7 +57,7 @@ const CTF = () => {
                 <h2 className='text-2xl lg:text-4xl font-extralight'>
                   İkincilik Ödülü
                 </h2>
-                <h1 className='text-6xl lg:text-8xl font-bold'>?????</h1>
+                <h1 className='text-6xl lg:text-8xl font-bold'>20.000TL</h1>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 Üçüncülük Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>?????</h1>
+              <h1 className='text-6xl lg:text-8xl font-bold'>10.000TL</h1>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 İkincilik Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>?????</h1>
+              <h1 className='text-6xl lg:text-8xl font-bold'>20.000TL</h1>
             </div>
           </div>
         </div>
