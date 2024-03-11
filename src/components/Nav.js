@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import logo from '../assets/skylab_logo.webp';
 
-const Nav = ({ setCurrentSection }) => {
+const Nav = ({ sections }) => {
   const [menuOpened, setMenuOpened] = React.useState(false);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Nav = ({ setCurrentSection }) => {
         <button
           onClick={() => {
             setMenuOpened(false);
-            setCurrentSection(0);
+            sections[0].scrollIntoView({ behavior: 'smooth' });
           }}
           className='p-1 hover:opacity-80'
         >
@@ -39,7 +39,7 @@ const Nav = ({ setCurrentSection }) => {
         <button
           onClick={() => {
             setMenuOpened(false);
-            setCurrentSection(1);
+            sections[1].scrollIntoView({ behavior: 'smooth' });
           }}
           className='p-1 hover:opacity-80'
         >
@@ -48,7 +48,7 @@ const Nav = ({ setCurrentSection }) => {
         <button
           onClick={() => {
             setMenuOpened(false);
-            setCurrentSection(2);
+            sections[2].scrollIntoView({ behavior: 'smooth' });
           }}
           className='p-1 hover:opacity-80'
         >
@@ -57,7 +57,7 @@ const Nav = ({ setCurrentSection }) => {
         <button
           onClick={() => {
             setMenuOpened(false);
-            setCurrentSection(3);
+            sections[3].scrollIntoView({ behavior: 'smooth' });
           }}
           className='p-1 hover:opacity-80'
         >
@@ -66,7 +66,7 @@ const Nav = ({ setCurrentSection }) => {
         <button
           onClick={() => {
             setMenuOpened(false);
-            setCurrentSection(4);
+            sections[4].scrollIntoView({ behavior: 'smooth' });
           }}
           className='p-1 hover:opacity-80'
         >
@@ -75,7 +75,7 @@ const Nav = ({ setCurrentSection }) => {
         <button
           onClick={() => {
             setMenuOpened(false);
-            setCurrentSection(5);
+            sections[5].scrollIntoView({ behavior: 'smooth' });
           }}
           className='p-1 hover:opacity-80'
         >
@@ -119,44 +119,44 @@ const Nav = ({ setCurrentSection }) => {
           className='flex justify-between shadow-xl outline-1 backdrop-blur-md outline outline-[#789eab] px-6 py-2 rounded-3xl items-center w-full'
         >
           <img
-            onClick={() => setCurrentSection(0)}
+            onClick={() => sections[0].scrollIntoView({ behavior: 'smooth' })}
             className='h-10 md:h-16 cursor-pointer'
             src={logo}
             alt='SKYLAB'
           />
           <div className='hidden md:flex gap-2 lg:gap-8 text-xl items-center'>
             <button
-              onClick={() => setCurrentSection(0)}
+              onClick={() => sections[0].scrollIntoView({ behavior: 'smooth' })}
               className='p-1 hover:opacity-80'
             >
               Ana Sayfa
             </button>
             <button
-              onClick={() => setCurrentSection(1)}
+              onClick={() => sections[1].scrollIntoView({ behavior: 'smooth' })}
               className='p-1 hover:opacity-80'
             >
               Hakkımızda
             </button>
             <button
-              onClick={() => setCurrentSection(2)}
+              onClick={() => sections[2].scrollIntoView({ behavior: 'smooth' })}
               className='p-1 hover:opacity-80'
             >
               Konuşmacılar
             </button>
             <button
-              onClick={() => setCurrentSection(3)}
+              onClick={() => sections[3].scrollIntoView({ behavior: 'smooth' })}
               className='p-1 hover:opacity-80'
             >
               Sponsorlar
             </button>
             <button
-              onClick={() => setCurrentSection(4)}
+              onClick={() => sections[4].scrollIntoView({ behavior: 'smooth' })}
               className='p-1 hover:opacity-80'
             >
               CTF
             </button>
             <button
-              onClick={() => setCurrentSection(5)}
+              onClick={() => sections[5].scrollIntoView({ behavior: 'smooth' })}
               className='p-1 hover:opacity-80'
             >
               S.S.S

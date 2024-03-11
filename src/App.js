@@ -29,16 +29,8 @@ function App() {
     setTotalLength(total);
   }, [sections]);
 
-  console.log(totalLength);
-
-  const [currentSection, setCurrentSection] = useState(null);
-
-  useEffect(() => {
-    sections[currentSection]?.scrollIntoView({ behavior: 'smooth' });
-  }, [currentSection]);
-
   return (
-    <div className='App h-[100dvh] relative snap-proximity snap-y overflow-y-scroll overflow-x-hidden'>
+    <div className='App h-[100dvh] relative snap-proximity sm:snap-y overflow-y-scroll overflow-x-hidden'>
       <div
         style={{
           backgroundImage: `url('${background}')`,
@@ -46,7 +38,7 @@ function App() {
         }}
         className='absolute -z-10 w-screen bg-cover'
       ></div>
-      <Nav setCurrentSection={setCurrentSection} />
+      <Nav sections={sections} />
       <Landing />
       <About />
       <Speakers />
