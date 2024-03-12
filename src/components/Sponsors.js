@@ -1,5 +1,6 @@
 import React from 'react';
-import yapikredi from '../assets/yapikredi_beyaz.png';
+import yapikredi from '../assets/yapikredi.png';
+import lcw from '../assets/lcw.png';
 
 const Sponsors = () => {
   return (
@@ -11,7 +12,7 @@ const Sponsors = () => {
       <h3 className='mt-24 text-xl sm:text-3xl lg:text-4xl font-extralight'>
         Ana Sponsor
       </h3>
-      <div className='flex justify-center '>
+      <div className='flex justify-center'>
         <img
           className='w-2/3 md:w-1/2 md:mr-12'
           src={yapikredi}
@@ -19,12 +20,16 @@ const Sponsors = () => {
         />
       </div>
 
-      <h3 className='mt-8 text-xl sm:text-3xl lg:text-4xl font-extralight'>
-        Gümüş Sponsor
+      <h3 className='my-8 text-xl sm:text-3xl lg:text-4xl font-extralight'>
+        Altın Sponsor
       </h3>
-      <h3 className='mt-8 text-xl sm:text-3xl lg:text-4xl font-extralight'>
+      <div className='flex justify-center '>
+        <img className='w-2/3 md:w-1/2' src={lcw} alt='LC Waikiki' />
+      </div>
+
+      {/* <h3 className='mt-8 text-xl sm:text-3xl lg:text-4xl font-extralight'>
         Platin Sponsor
-      </h3>
+      </h3> */}
     </section>
   );
 };
