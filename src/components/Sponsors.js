@@ -22,7 +22,7 @@ const Sponsors = () => {
         Altın Sponsor
       </h3>
       <div className='flex justify-center '>
-        <div className='w-2/3 md:w-1/2 md:mr-12 rounded-full mt-2 px-4 py-12 radial'>
+        <div className='w-2/3 md:w-1/2 rounded-full px-4 py-12 radial'>
           <img src={lcw} alt='LC Waikiki' />
         </div>
       </div>
