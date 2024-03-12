@@ -13,16 +13,16 @@ const Sponsors = () => {
         Ana Sponsor
       </h3>
       <div className='flex justify-center'>
-        <div className='w-2/3 md:w-1/2 md:mr-12 rounded-full mt-2 p-2 radial'>
+        <div className='w-2/3 md:w-1/2 md:mr-12 px-8 mt-2 p-2 radial'>
           <img src={yapikredi} alt='Yapı Kredi' />
         </div>
       </div>
 
-      <h3 className='my-8 text-xl sm:text-3xl lg:text-4xl font-extralight'>
+      <h3 className='mt-8 text-xl sm:text-3xl lg:text-4xl font-extralight'>
         Altın Sponsor
       </h3>
       <div className='flex justify-center '>
-        <div className='w-2/3 md:w-1/2 rounded-full px-4 py-12 radial'>
+        <div className='w-2/3 md:w-1/2 px-8 py-12 mt-2 radial'>
           <img src={lcw} alt='LC Waikiki' />
         </div>
       </div>
