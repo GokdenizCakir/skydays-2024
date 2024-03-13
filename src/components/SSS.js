@@ -22,8 +22,13 @@ const SSS = () => {
 
       <h2 className='mt-20 text-xl sm:text-2xl text-center'>
         Soracak başka sorularınız için{' '}
-        <span className='text-[#8498ff]'>skylab.ytu@gmail.com</span> mail
-        adresine ulaşabilirsiniz.
+        <a
+          href='mailto:skylab.ytu@gmail.com'
+          className='text-[#8498ff] cursor-pointer'
+        >
+          skylab.ytu@gmail.com
+        </a>{' '}
+        mail adresine ulaşabilirsiniz.
       </h2>
     </section>
   );
