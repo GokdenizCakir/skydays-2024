@@ -1,11 +1,12 @@
 import React from 'react';
 import yapikredi from '../assets/yapikredi.png';
 import lcw from '../assets/lcw.png';
+import malwation from '../assets/malwation.png';
 
 const Sponsors = () => {
   return (
     // 100dvh !!!
-    <section id='3' className='text-center h-[100dvh] pt-44'>
+    <section id='3' className='text-center pt-44'>
       <h2 className='text-3xl sm:text-6xl lg:text-8xl font-semibold'>
         Sponsorlar
       </h2>
@@ -24,6 +25,15 @@ const Sponsors = () => {
       <div className='flex justify-center '>
         <div className='w-2/3 md:w-1/2 px-8 py-12 mt-2 radial'>
           <img src={lcw} alt='LC Waikiki' />
+        </div>
+      </div>
+
+      <h3 className='mt-8 text-xl sm:text-3xl lg:text-4xl font-extralight'>
+        Gümüş Sponsor
+      </h3>
+      <div className='flex justify-center '>
+        <div className='w-2/3 md:w-1/2 px-8 py-12 mt-2 radial'>
+          <img src={malwation} alt='LC Waikiki' />
         </div>
       </div>
 
