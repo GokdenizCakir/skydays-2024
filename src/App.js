@@ -30,7 +30,7 @@ function App() {
   }, [sections]);
 
   return (
-    <div className='App h-[100dvh] relative snap-proximity sm:snap-y overflow-y-scroll overflow-x-hidden'>
+    <div className='App h-[100dvh] relative overflow-y-scroll overflow-x-hidden'>
       <div
         style={{
           backgroundImage: `url('${background}')`,
