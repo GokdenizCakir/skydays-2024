@@ -35,7 +35,7 @@ const Speakers = () => {
           <h2 className='sm:text-2xl text-nowrap'>Berk Albayrak</h2>
           <h3 className='text-xs sm:text-base text-nowrap'>Malwation</h3>
           <h3 className='text-xs sm:text-base text-nowrap'>
-            Threat Research Team
+            Threat Research Team Lead
           </h3>
           <h4 className='text-xs sm:text-base text-nowrap'>
             “Siber tehditleri anlamak”
