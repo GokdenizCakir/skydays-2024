@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/skylab_logo.webp';
 import eren from '../assets/eren.png';
+import berk from '../assets/berk.png';
 
 const Speakers = () => {
   return (
@@ -27,10 +28,18 @@ const Speakers = () => {
             “Finans Sektöründe Siber Güvenlik”
           </h4>
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex flex-col justify-center items-center'>
           <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
-            <img src={logo} alt='speaker' />
+            <img src={berk} alt='berk albayrak' />
           </div>
+          <h2 className='sm:text-2xl text-nowrap'>Berk Albayrak</h2>
+          <h3 className='text-xs sm:text-base text-nowrap'>Malwation</h3>
+          <h3 className='text-xs sm:text-base text-nowrap'>
+            Threat Research Team
+          </h3>
+          <h4 className='text-xs sm:text-base text-nowrap'>
+            “Siber tehditleri anlamak”
+          </h4>
         </div>
         <div className='flex justify-center items-center'>
           <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
