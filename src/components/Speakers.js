@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../assets/skylab_logo.webp';
 import eren from '../assets/eren.png';
 import berk from '../assets/berk.png';
+import ali from '../assets/ali.png';
 
 const Speakers = () => {
   return (
@@ -24,7 +25,7 @@ const Speakers = () => {
           <h3 className='text-xs sm:text-base text-nowrap'>
             Platform Güvenliği Müdürü
           </h3>
-          <h4 className='text-xs sm:text-base text-nowrap'>
+          <h4 className='text-xs sm:text-base text-nowrap mt-2'>
             “Finans Sektöründe Siber Güvenlik”
           </h4>
         </div>
@@ -37,14 +38,22 @@ const Speakers = () => {
           <h3 className='text-xs sm:text-base text-nowrap'>
             Threat Research Team Lead
           </h3>
-          <h4 className='text-xs sm:text-base text-nowrap'>
+          <h4 className='text-xs sm:text-base text-nowrap mt-2'>
             “Siber tehditleri anlamak”
           </h4>
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex flex-col justify-center items-center'>
           <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
-            <img src={logo} alt='speaker' />
+            <img className='scale-[1.40]' src={ali} alt='ali tütüncü' />
           </div>
+          <h2 className='sm:text-2xl text-nowrap'>Ali Tütüncü</h2>
+          <h3 className='text-xs sm:text-base text-nowrap'></h3>
+          <h3 className='text-xs sm:text-base text-nowrap'>
+            Independent Security Researcher
+          </h3>
+          <h4 className='text-xs sm:text-base text-center mt-2'>
+            “Ödül Avcılığı: Bug Bounty'nin Temel Prensipleri ve İşleyişi”
+          </h4>
         </div>
         <div className='flex justify-center items-center'>
           <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
