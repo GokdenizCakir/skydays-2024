@@ -4,6 +4,7 @@ import eren from '../assets/eren.png';
 import berk from '../assets/berk.png';
 import ali from '../assets/ali.png';
 import halil from '../assets/halil.jpg';
+import canberk from '../assets/canberk.JPG';
 
 const Speakers = () => {
   return (
@@ -73,10 +74,22 @@ const Speakers = () => {
             “Siber Güvenlik Alanında Kariyer”
           </h4>
         </div>
-        <div className='flex justify-center items-center'>
+        <div className='flex flex-col justify-center items-center'>
           <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
-            <img src={logo} alt='speaker' />
+            <img
+              className='scale-[1.40]'
+              src={canberk}
+              alt='halil ibrahim yaşarsoy'
+            />
           </div>
+          <h2 className='sm:text-2xl text-nowrap'>Canberk Efe</h2>
+          <h3 className='text-xs sm:text-base text-nowrap'></h3>
+          <h3 className='text-xs sm:text-base text-nowrap'>
+            Security Researcher
+          </h3>
+          <h4 className='text-xs sm:text-base text-center mt-2 text-nowrap'>
+            “Exploits & Malwares”
+          </h4>
         </div>
         <div className='flex justify-center items-center'>
           <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
