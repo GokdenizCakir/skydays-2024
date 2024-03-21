@@ -14,7 +14,7 @@ const CTF = () => {
           CTF
         </h2>
         <h2 className='text-4xl lg:text-6xl mt-12 lg:mt-20'>CTF nedir?</h2>
-        <p className='text-xl sm:text-3xl lg:text-4xl font-extralight mt-4'>
+        <p className='text-xl  lg:text-2xl font-extralight mt-4'>
           CTF (Capture The Flag), bilgisayar güvenliği ve bilgi güvenliği
           becerilerini geliştirmek için düzenlenen rekabetçi bir etkinliktir.
           Katılımcılar, çeşitli bilgi güvenliği sorunlarını çözmek için yarışır
@@ -28,11 +28,11 @@ const CTF = () => {
             (window.location.href =
               'https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbiW71iuprpdGm4fb9lyf0dFUM0s4TzlPU0ROSUtGVlJHNDRZSDZPSjVMUy4u')
           }
-          className='bg-[#0075FF] hover:opacity-80 rounded-full mt-6 sm:mt-8 text-2xl md:text-4xl font-semibold px-8 py-3'
+          className='bg-[#0075FF] hover:opacity-80 rounded-full mt-6 sm:mt-8 text-xl lg:text-2xl  font-semibold px-8 py-3'
         >
           Kayıt Ol
         </button>
-        <p className='text-xl sm:text-3xl lg:text-4xl font-extralight mt-6 sm:mt-8'>
+        <p className='text-xl  lg:text-2xl font-extralight mt-6 sm:mt-8'>
           Yıldız Teknik Üniversitesi'nde ilk defa bir öğrenci kulübü tarafından
           gerçekleştirilecek olan CTF, aynı zamanda SKYDAYS tarihinde de ilk
           olma özelliğini taşımaktadır.
@@ -47,7 +47,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 Birincilik Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>30.000TL</h1>
+              <h1 className='text-4xl lg:text-7xl font-bold'>30.000TL</h1>
             </div>
           </div>
           <div className='block sm:hidden'>
@@ -57,7 +57,7 @@ const CTF = () => {
                 <h2 className='text-2xl lg:text-4xl font-extralight'>
                   İkincilik Ödülü
                 </h2>
-                <h1 className='text-6xl lg:text-8xl font-bold'>20.000TL</h1>
+                <h1 className='text-4xl lg:text-7xl font-bold'>20.000TL</h1>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 Üçüncülük Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>10.000TL</h1>
+              <h1 className='text-4xl lg:text-7xl font-bold'>10.000TL</h1>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 İkincilik Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>20.000TL</h1>
+              <h1 className='text-4xl lg:text-7xl font-bold'>20.000TL</h1>
             </div>
           </div>
         </div>
